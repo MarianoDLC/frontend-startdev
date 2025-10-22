@@ -164,7 +164,7 @@ useEffect(() => {
       items: [
         { id: "nuevo-admin", label: "Agregar nuevo admin", icon: UserPlus },
         { id: "administradores", label: "Administradores", icon: Users },
-        { id: "detalles", label: "Detalles", icon: FileText },
+        // { id: "detalles", label: "Detalles", icon: FileText },
       ],
     },
     {
@@ -179,8 +179,8 @@ useEffect(() => {
       title: "PRACTICANTES",
       items: [
         { id: "lista-practicantes", label: "Lista", icon: Users },
-        { id: "graficas-progreso", label: "Gráficas (progresos)", icon: BarChart3 },
-        { id: "ranking", label: "Ranking", icon: Award },
+        // { id: "graficas-progreso", label: "Gráficas (progresos)", icon: BarChart3 },
+        // { id: "ranking", label: "Ranking", icon: Award },
       ],
     },
   ];

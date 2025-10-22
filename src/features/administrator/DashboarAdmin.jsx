@@ -316,10 +316,10 @@ useEffect(() => {
 
           {/* Parte fija abajo */}
           <div className="p-6 border-t border-purple-700 space-y-2">
-            <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-purple-800 transition-all">
+            {/* <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-purple-800 transition-all">
               <Settings size={18} />
               <span className="text-sm">Configuración</span>
-            </button>
+            </button> */}
             <button
               onClick={handleLogout}
               className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-purple-800 transition-all text-purple-300"
